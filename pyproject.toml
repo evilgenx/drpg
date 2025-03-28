@@ -23,6 +23,7 @@ classifiers = [
 dependencies = [
     "httpx[http2]>=0.23",
     "textual",
+    "pyperclip",
 ]
 
 [dependency-groups]
