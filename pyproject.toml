@@ -22,6 +22,7 @@ classifiers = [
 ]
 dependencies = [
     "httpx[http2]>=0.23",
+    "textual",
 ]
 
 [dependency-groups]
@@ -41,6 +42,7 @@ ci = [
 
 [project.scripts]
 drpg = "drpg.cmd:run"
+drpg-tui = "drpg.tui:run_tui"
 
 [project.urls]
 Changelog = "https://github.com/glujan/drpg/blob/master/CHANGELOG.md"
