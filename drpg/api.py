@@ -6,12 +6,12 @@ from typing import TYPE_CHECKING
 
 import httpx
 
-from drpg.types import PrepareDownloadUrlResponse
+from drpg.custom_types import PrepareDownloadUrlResponse
 
 if TYPE_CHECKING:  # pragma: no cover
     from collections.abc import Iterator
 
-    from drpg.types import Product, TokenResponse
+    from drpg.custom_types import Product, TokenResponse
 
 logger = logging.getLogger("drpg")
 JSON_MIME = "application/json"
